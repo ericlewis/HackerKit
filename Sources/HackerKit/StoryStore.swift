@@ -12,7 +12,7 @@ public class StoryStore: ObservableObject {
     }
     
     func bind() {
-        cancellable = $filter
+        $filter
             .receive(on: RunLoop.main)
             .sink(receiveValue: fetchStories)
     }
