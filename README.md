@@ -1,3 +1,3 @@
 # HackerKit
 
-A description of this package.
+Simple Hacker News API made with Combine
